@@ -1,0 +1,68 @@
+nav {
+  background-color: crimson;
+  color: white;
+}
+nav a {
+  color: white;
+  display: inline-block;
+  padding: 28px;
+}
+nav a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+header {
+  padding: 150px 0;
+}
+header h1 {
+  font-size: 4rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+.container {
+  width: 60rem;
+  margin: 0 auto;
+}
+section {
+  padding: 80px 0;
+}
+header,
+section {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+#skills {
+  background-color: coral;
+}
+#skills ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#skills ul li {
+  display: flex;
+  margin-right: 2rem;
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 1000px;
+}
+.section-title {
+  font-size: 3rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.profile-img-holder {
+  display: flex;
+  justify-content: center;
+}
+.profile-img-holder img {
+  display: flex;
+  align-self: center;
+  box-shadow: 0px 2px 16px -4px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+footer {
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  font-size: 0.875rem;
+}
