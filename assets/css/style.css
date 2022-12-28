@@ -66,3 +66,17 @@ footer {
   text-align: center;
   font-size: 0.875rem;
 }
+#projects {
+}
+.projects {
+  display: flex;
+}
+.project-info {
+  padding: 2rem;
+
+  width: 50%;
+}
+.project-info img {
+  display: block;
+  width: 100%;
+}
